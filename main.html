@@ -7,9 +7,23 @@
 </head>
 
 <body>
+	<form id="myForm" action="submit-form.php" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" required></textarea><br><br>
+
+    <input type="checkbox" id="terms" name="terms" value="accepted">
+    <label for="terms">I accept the terms and conditions</label><br><br>
+
+    <input type="submit" id="submitBtn" value="Submit" disabled>
+</form>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
